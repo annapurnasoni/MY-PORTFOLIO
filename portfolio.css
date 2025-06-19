@@ -81,6 +81,25 @@ h2 {
   color: #4a00e0;
 }
 
+.achievement-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.achievement-list li {
+  background: #e6f0ff;
+  padding: 12px 18px;
+  border-left: 5px solid #4a00e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  animation: fadeInUp 0.8s ease-in-out;
+}
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
